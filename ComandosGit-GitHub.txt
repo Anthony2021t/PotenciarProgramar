@@ -1,0 +1,33 @@
+					COMANDOS DE GIT 
+
+	clear: Limpiar pantalla
+	ls: Muesta un listado de conctenido donde se encuentre
+	cd "nombreDelRepositorio": Ingrsea al repositorio mencionado
+	cd ..:Para volver a atras en tema de posicion
+	
+				CREACION DE USUARIO DE REPOSITORIO (Solo una vez)
+	git config --global user.name: Crea nuestro repositorio nde usuar y comandos (Ingresamos nuestro nombre)
+	git config --global user.email: Crea nuestro repositorio nde usuar y comandos (Ingresamos nuestro email)
+	git config --global alias.tree "git log --graph --decorate --all --oneline"(Ingresamos nuestr primer alias)
+
+			COMANDOS PARA CREAR LAS VERSIONES DE SU PROGRAMA
+	init: Inicializacion mi repositorio git 
+	git status: para ver el estado de sus archivos
+	git add: añadir su archivo 
+	git commit -m "(comentario que puedan identificarlos con lo que estana por guardar)": Para guardar una version de su programa
+	
+			COMANDOS PARA VER EL CODIGO DE SU COMMIT
+	git log: Les mostrara el codigo completo mas el nombre de su usuario y comentario
+	git tree: Les va comstra el nmero y donde se encuentran (tree-> fue el alias que creamos)
+
+			COMANDO PARA PODER TRANSPORTARME POR LAS VERSIONDE DE MI PROGRAMA
+	git checkout (CodigCommit):Para poder ir a la version que colocamos luego del checkout
+
+
+"Creacion rapida para tu repositorio en GitHub"
+"git init"
+"git add ." que añada todo
+"git commit -m "El tema de que se este trabajando"
+"git remote add origin https://github.com/Tolentino995/(nombre de tu repositorio)" <---(este es el mio cada uno tiene url)
+"git push -u origin matster"
+ 
