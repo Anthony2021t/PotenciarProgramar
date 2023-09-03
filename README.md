@@ -1,1 +1,1 @@
-# PotenciarProgramar (Comision 25/26)
+# PotenciarProgramar (Comisión 25/26)
